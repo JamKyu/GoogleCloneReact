@@ -3,7 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import AppsIcon from "@mui/icons-material/Apps";
 import { Avatar } from "@mui/material";
-import Search from "../components/Search"
+import SearchBar from "../components/SearchBar"
 
 const Home = () => {
   return (
@@ -26,7 +26,7 @@ const Home = () => {
           alt=""
         />
         <div className="home__inputContainer">
-          <Search />
+          <SearchBar />
         </div>
       </div>
     </div>

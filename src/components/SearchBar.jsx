@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Search.css";
+import "./SearchBar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import { Button } from "@mui/material";
@@ -25,31 +25,31 @@ const Search = ({ hideButtons }) => {
   };
 
   return (
-    <form className="search">
-      <div className="search__input">
-        <SearchIcon className="search__inputIcon" />
+    <form className="searchBar">
+      <div className="searchBar__input">
+        <SearchIcon className="searchBar__inputIcon" />
         <input value={input} onChange={(e) => setInput(e.target.value)} />
         <MicIcon />
       </div>
 
       {!hideButtons ? (
-        <div className="search__buttons">
+        <div className="searchBar__buttons">
           <Button type="submit" onClick={search} variant="outlined">
             Google Search
           </Button>
           <Button variant="outlined">I'm Feeling Lucky</Button>
         </div>
       ) : (
-        <div className="search__buttons">
+        <div className="searchBar__buttons">
           <Button
-            className="search__buttonsHidden"
+            className="searchBar__buttonsHidden"
             type="submit"
             onClick={search}
             variant="outlined"
           >
             Google Search
           </Button>
-          <Button className="search__buttonsHidden" variant="outlined">
+          <Button className="searchBar__buttonsHidden" variant="outlined">
             I'm Feeling Lucky
           </Button>
         </div>
