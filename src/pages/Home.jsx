@@ -10,12 +10,12 @@ const Home = () => {
     <div className="home">
       <div className="home__header">
         <div className="home__headerLeft">
-          <Link to="/about">About</Link>
-          <Link to="/store">Store</Link>
+          <Link to="/" className="no-cursor">About</Link>
+          <Link to="/" className="no-cursor">Store</Link>
         </div>
         <div className="home__headerRight">
-          <Link to="/gmail">Gmail</Link>
-          <Link to="/images">Images</Link>
+          <Link to="/" className="no-cursor">Gmail</Link>
+          <Link to="/" className="no-cursor">Images</Link>
           <AppsIcon />
           <Avatar />
         </div>

@@ -37,7 +37,7 @@ const Search = ({ hideButtons }) => {
           <Button type="submit" onClick={search} variant="outlined">
             Google Search
           </Button>
-          <Button variant="outlined">I'm Feeling Lucky</Button>
+          <Button style={{cursor: 'no-drop'}} variant="outlined">I'm Feeling Lucky</Button>
         </div>
       ) : (
         <div className="searchBar__buttons">

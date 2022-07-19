@@ -38,35 +38,35 @@ function SearchPage() {
             <div className="searchPage__optionsLeft">
               <div className="searchPage__option">
                 <SearchIcon />
-                <Link to="/all">All</Link>
+                <Link className="no-cursor" to="">All</Link>
               </div>
               <div className="searchPage__option">
                 <DescriptionIcon />
-                <Link to="/news">News</Link>
+                <Link className="no-cursor" to="">News</Link>
               </div>
               <div className="searchPage__option">
                 <ImageIcon />
-                <Link to="/images">Images</Link>
+                <Link className="no-cursor" to="">Images</Link>
               </div>
               <div className="searchPage__option">
                 <LocalOfferIcon />
-                <Link to="/shopping">Shopping</Link>
+                <Link className="no-cursor" to="">Shopping</Link>
               </div>
               <div className="searchPage__option">
                 <RoomIcon />
-                <Link to="/maps">Maps</Link>
+                <Link className="no-cursor" to="">Maps</Link>
               </div>
               <div className="searchPage__option">
                 <MoreVertIcon />
-                <Link to="/more">More</Link>
+                <Link className="no-cursor" to="">More</Link>
               </div>
             </div>
             <div className="searchPage__optionsRight">
               <div className="searchPage__option">
-                <Link to="/settings">Settings</Link>
+                <Link className="no-cursor" to="">Settings</Link>
               </div>
               <div className="searchPage__option">
-                <Link to="/tools">Tools</Link>
+                <Link className="no-cursor" to="">Tools</Link>
               </div>
             </div>
           </div>

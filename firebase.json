@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "jamkyu-gsearch",
     "public": "Build",
     "ignore": [
       "firebase.json",
